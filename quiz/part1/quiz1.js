@@ -1,6 +1,23 @@
 let nama = "caelum";
 let peran = "Tabib"; 
 
+
+/*
+INPUT
+IF nilai dan tipe datanya dari name sama dengan string kosong
+menampilkan "nama wajib diisi"
+ELSE IF nilai dan tipe datanya dari role sama dengan string kosong
+menampilkan "pilih peranmu untuk memulai game"
+ELSE IF nilai dan tipe datanya dari role sama dengan "Ksatria"
+menampilkan halo Ksatria (name) , kamu dapat menyerang dengan senjatamu!
+ELSE IF nilai dan tipe datanya dari role sama dengan "Tabib"
+menampilkan halo Tabib (name) , kamu akan membantu temanmu yang terluka
+ELSE IF nilai dan tipe datanya dari role sama dengan "Penyihir"
+menampilkan halo Penyihir (name) , ciptakan keajaiban yang membantu kemenanganmu!
+ELSE
+menampilkan kayaknya kamu jadi bot aja ya, peran kamu yang kamu pilih ga ada
+*/
+
 function Proxytia() {
     if (nama === "") {
         console.log("nama wajib diisi!");
